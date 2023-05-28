@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://cocoapods/pods/testing_yoyo'
+  s.homepage         = 'https://github.com/guynachshon/testing_yoyo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '58976716' => 'guy.na8@gmail.com' }
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.platform = :osx
   s.osx.deployment_target = "10.10"
 
-  s.source_files = 'testing_yoyo/Classes/**/*'
+  s.source_files = 'testing_yoyo/sources/*.swift'
 
   # s.resource_bundles = {
   #   'testing_yoyo' => ['testing_yoyo/Assets/*.png']
