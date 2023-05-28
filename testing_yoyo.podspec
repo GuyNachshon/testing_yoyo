@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.platform = :osx
   s.osx.deployment_target = "10.13"
 
-  s.source_files = 'sources/*.swift'
+  s.source_files = 'testing_yoyo/Classes/*.swift'
 
   # s.resource_bundles = {
   #   'testing_yoyo' => ['testing_yoyo/Assets/*.png']
