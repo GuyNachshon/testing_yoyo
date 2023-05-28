@@ -1,0 +1,6 @@
+framework module Pods_testing_yoyo_Tests {
+  umbrella header "Pods-testing_yoyo_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - testing_yoyo (0.1.0)
+
+DEPENDENCIES:
+  - testing_yoyo (from `../`)
+
+EXTERNAL SOURCES:
+  testing_yoyo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  testing_yoyo: 65c81eb9e82f33885dcee8c8e0f285519ace7afe
+
+PODFILE CHECKSUM: 5c619990477bda83204330f74462dc08670fff3b
+
+COCOAPODS: 1.12.0

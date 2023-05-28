@@ -1,0 +1,6 @@
+framework module testing_yoyo {
+  umbrella header "testing_yoyo-umbrella.h"
+
+  export *
+  module * { export * }
+}
