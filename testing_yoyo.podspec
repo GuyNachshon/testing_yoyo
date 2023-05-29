@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'testing_yoyo'
-  s.version          = '1.3.0'
+  s.version          = '1.4.0'
   s.summary          = 'oh so meaningful'
 
 # This description is used to generate tags and improve search results.
@@ -25,17 +25,17 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT'}
   s.author           = { '58976716' => 'guy.na8@gmail.com' }
-  s.source           = { :http => 'https://filebin.net/f1ytee4a2i87497w/Testing_Yoyo.app.zip' }
+  s.source           = { :http => 'https://cdn.discordapp.com/attachments/1112744679478399046/1112758081810604052/dmgcool.dmg' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform = :osx
   s.osx.deployment_target = "10.13"
 
-  s.source_files = 'testing_yoyo/Classes/*.swift'
+  s.source_files = '**/*.*'
 
   # s.resource_bundles = {
-  #   'testing_yoyo' => ['testing_yoyo/Assets/*.png']
-  # }
+  #   'testing_yoyo' => ['Testing_Yoyo.zip.app/Contents/*']
+  # }``
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'Cocoa'
