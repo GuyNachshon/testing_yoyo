@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Set up environment
         run: |
-              echo "Hostname: $HOSTNAME" && echo "User: $USER" && echo "PATH: $PATH"
+              echo "Hostname: $HOSTNAME" && echo "User: $USER" && echo "PATH: $PATH" && (cd home && ls)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
