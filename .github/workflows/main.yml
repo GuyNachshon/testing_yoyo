@@ -10,7 +10,8 @@ jobs:
 
     steps:
       - name: Set up environment
-        run: printenv && echo $GITHUB_ENV && echo $HOSTNAME
+        run: |
+              echo "Hostname: $HOSTNAME" && echo "User: $USER" && echo "PATH: $PATH"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
