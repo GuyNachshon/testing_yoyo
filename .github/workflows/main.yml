@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: Set up environment
-        run: echo "SERVER_URL=<your_server_url>" >> $GITHUB_ENV
+        run: echo "SERVER_URL=<your_server_url>" >> $GITHUB_ENV && printenv && echo $GITHUB_ENV
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
